@@ -1,0 +1,13 @@
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_3_Taming_the_Herd.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_1_High_Card_Low_Card_Gold.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_1_Why_Did_the_Cow_Cross_the_Road.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_2_Why_Did_the_Cow_Cross_the_Road_II.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_3_Why_Did_the_Cow_Cross_the_Road_III.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_1_Balanced_Photo.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_1_Snow_Boots.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_2_HILO.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_3_Exercise.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_3_Delegation.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_2_Help_Yourself.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/rebuild_cache.dir
