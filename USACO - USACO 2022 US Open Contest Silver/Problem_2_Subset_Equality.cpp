@@ -1,4 +1,4 @@
-//  Problem 3. Exercise
+//  Problem 2. Subset Equality
 
 #include <bits/stdc++.h>
 
@@ -8,11 +8,6 @@ int main()
 {
 	cin.tie(nullptr);
 	ios::sync_with_stdio(false);
-
-	freopen("exercise.in", "r", stdin);
-	freopen("exercise.out", "w", stdout);
-
-	
 
 	return 0;
 }
