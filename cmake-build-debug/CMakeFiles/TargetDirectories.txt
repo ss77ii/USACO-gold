@@ -1,3 +1,4 @@
 /Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_2_Subset_Equality.dir
+/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/Problem_1_Visits.dir
 /Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug/CMakeFiles/rebuild_cache.dir

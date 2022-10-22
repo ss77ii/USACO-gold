@@ -68,6 +68,37 @@ build Problem_2_Subset_Equality: CXX_EXECUTABLE_LINKER__Problem_2_Subset_Equalit
   TARGET_FILE = Problem_2_Subset_Equality
   TARGET_PDB = Problem_2_Subset_Equality.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Problem_1_Visits
+
+
+#############################################
+# Order-only phony target for Problem_1_Visits
+
+build cmake_object_order_depends_target_Problem_1_Visits: phony || CMakeFiles/Problem_1_Visits.dir
+
+build CMakeFiles/Problem_1_Visits.dir/USACO_-_USACO_2022_US_Open_Contest_Silver/Problem_1_Visits.cpp.o: CXX_COMPILER__Problem_1_Visits_Debug /Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/USACO$ -$ USACO$ 2022$ US$ Open$ Contest$ Silver/Problem_1_Visits.cpp || cmake_object_order_depends_target_Problem_1_Visits
+  DEP_FILE = CMakeFiles/Problem_1_Visits.dir/USACO_-_USACO_2022_US_Open_Contest_Silver/Problem_1_Visits.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Problem_1_Visits.dir
+  OBJECT_FILE_DIR = CMakeFiles/Problem_1_Visits.dir/USACO_-_USACO_2022_US_Open_Contest_Silver
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Problem_1_Visits
+
+
+#############################################
+# Link the executable Problem_1_Visits
+
+build Problem_1_Visits: CXX_EXECUTABLE_LINKER__Problem_1_Visits_Debug CMakeFiles/Problem_1_Visits.dir/USACO_-_USACO_2022_US_Open_Contest_Silver/Problem_1_Visits.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/Problem_1_Visits.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Problem_1_Visits
+  TARGET_PDB = Problem_1_Visits.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -102,7 +133,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug
 
-build all: phony Problem_2_Subset_Equality
+build all: phony Problem_2_Subset_Equality Problem_1_Visits
 
 # =============================================================================
 # Built-in targets
