@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Gold",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Problem_1_Visits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problem_1_Visits-Debug-500ebb6c736b1eda7f9e.json",
+					"name" : "Problem_1_Visits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Problem_2_Subset_Equality::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Problem_2_Subset_Equality-Debug-cdcade143f3fe5e47b2e.json",
+					"name" : "Problem_2_Subset_Equality",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug",
+		"source" : "/Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
