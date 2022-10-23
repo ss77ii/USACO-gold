@@ -45,7 +45,7 @@ int main()
 		cin >> a[i].l >> a[i].r;
 		s[a[i].r]++;
 	}
-	
+
 	sort(a + 1, a + n + 1, cmp);
 
 	for (int i = 1; i <= 2 * n; i++)
