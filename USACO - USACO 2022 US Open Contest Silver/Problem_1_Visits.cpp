@@ -43,7 +43,7 @@ int main()
 	{
 		int a, v;
 		cin >> a >> v;
-		edges.push_back({ v, i, a });
+		edges.emplace_back( v, i, a );
 	}
 
 	sort(edges.rbegin(), edges.rend());
