@@ -57,8 +57,8 @@ bool check(int k)
 
 int main()
 {
-	freopen("deleg.in", "r", stdin);
-	freopen("deleg.out", "w", stdout);
+	// freopen("deleg.in", "r", stdin);
+	// freopen("deleg.out", "w", stdout);
 	cin >> n;
 
 	int temp1, temp2;
