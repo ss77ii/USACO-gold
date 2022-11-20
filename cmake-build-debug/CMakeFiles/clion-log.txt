@@ -1,4 +1,0 @@
-"/Users/spencerwang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/spencerwang/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/ninja/mac/ninja" -D CMAKE_CXX_COMPILER=/usr/local/bin/g++-12 -G Ninja -S /Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold -B /Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/spencerwang/Library/CloudStorage/OneDrive-Personal/Coding/EC_coding/USACO/Gold/cmake-build-debug
