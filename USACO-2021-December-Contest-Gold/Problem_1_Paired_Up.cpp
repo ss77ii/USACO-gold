@@ -27,9 +27,7 @@ int max_span_cost(vector<pair<int, int> >& span, int k)
     for (int i = n - 1; ~i; i--)
     {
         dp[i] = dp[i + 1];
-        int ub = upper_bound(span.begin(), span.end(),
-                             make_pair(span[i].first + k, INF)) -
-                 span.begin();
+        int ub = upper_bound(span.begin(), span.end(), make_pair(span[i].first + k, INF)) - span.begin();
         if (i == 0 || i == n - 1 || span[i + 1].first - span[i - 1].first <= k || !(n - i & 1))
             dp[i].first = max(dp[i].first, dp[ub].second + span[i].second);
         if (i == 0 || i == n - 1 || span[i + 1].first - span[i - 1].first <= k || (n - i & 1))
