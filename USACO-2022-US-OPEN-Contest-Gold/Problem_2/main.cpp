@@ -8,7 +8,7 @@ string get()
 {
     string s, d;
     cin >> s;
-    for (char c : s)
+    for (auto c : s)
     {
         if (c == '0')
         {
@@ -56,7 +56,7 @@ int main()
                 if (i == 0 && j == 0)
                     continue;
 
-                if (i < x.size())
+                if (i <= x.size())
                 {
                     f[i + 1][j] = (f[i + 1][j] + f[i][j]) % MOD;
                     if (j > 0 && y[j - 1] != '+' && x[i] == '+')
@@ -65,7 +65,7 @@ int main()
                         f[i + 1][j] = (f[i + 1][j] + g[i][j]) % MOD;
                 }
 
-                if (j < y.size())
+                if (j <= y.size())
                 {
                     g[i][j + 1] = (g[i][j + 1] + g[i][j]) % MOD;
                     g[i][j + 1] = (g[i][j + 1] + f[i][j]) % MOD;
