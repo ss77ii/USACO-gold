@@ -1,39 +1,68 @@
-//  Problem 3. Taming the Herd
-
-#include <bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <queue>
+#include <set>
+#include <map>
+#include <limits.h>
 
 using namespace std;
 
-int a[102];
-int cnt[102][102];
-int dp[102][102];
-int n;
+int n; // number of cows
+int inp[102]; // input
+int cnt[102][102]; // the number of mismatched data from day i to j
+int dp[102][102]; // from 1 to i, there are j break outs.
 
 int main()
 {
-	cin.tie(nullptr);
-	ios::sync_with_stdio(false);
-
+	cin.tie(0), cout.tie(0);
+	ios_base::sync_with_stdio(0);
+	
 	cin >> n;
+	
 	for (int i = 1; i <= n; i++)
-		cin >> a[i];
+		cin >> inp[i];
 
 	for (int i = 1; i <= n; i++)
+	{
 		for (int j = i; j <= n; j++)
-			cnt[i][j] = cnt[i][j - 1] + (a[j] != (j - i));
+		{
+			int c = j - i;
+			if (inp[j] != c)
+				cnt[i][j] = cnt[i][j - 1] + 1;
+			else
+				cnt[i][j] = cnt[i][j - 1];
+		}
+	}
+	
+	for (int i = 0; i <= n; i++)
+	{
+		for (int j = 0; j <= n; j++)
+		{
+			dp[i][j] = 1000000;
+		}
+	}
 
-	memset(dp, 0x3f, sizeof(dp));
 	for (int i = 0; i <= n; i++)
 		dp[0][i] = 0;
-	dp[1][1] = (a[1] != 0);
-
+	dp[1][1] = (inp[1] != 0);
+	
 	for (int i = 2; i <= n; i++)
+	{
 		for (int j = 1; j <= i; j++)
+		{
 			for (int k = j; k <= i; k++)
+			{
 				dp[i][j] = min(dp[i][j], dp[k - 1][j - 1] + cnt[k][i]);
-
+			}
+		}
+	}
+	
 	for (int i = 1; i <= n; i++)
+	{
 		cout << dp[n][i] << endl;
+	}
 
 	return 0;
 }
+
