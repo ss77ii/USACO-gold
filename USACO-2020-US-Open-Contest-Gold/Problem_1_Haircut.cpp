@@ -33,8 +33,8 @@ void update(int x, int v)
 
 int main()
 {
-    freopen("haircut.in", "r", stdin);
-    freopen("haircut.out", "w", stdout);
+    // freopen("haircut.in", "r", stdin);
+    // freopen("haircut.out", "w", stdout);
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
@@ -48,17 +48,10 @@ int main()
     ll ans = 0;
     for (int i = N; i >= 0; i--)
     {
-        reverse(V[i].begin(), V[i].end());
-        for (int v : V[i])
-        {
-            ans += getSum(v);
-            update(v, 1);
-        }
-        W[i] = ans;
+        
     }
 
-    for (int i = 0; i <= N - 1; i++)
-        cout << W[0] - W[i] << endl;
+    
     
     return 0;
 }

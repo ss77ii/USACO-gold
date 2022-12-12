@@ -57,12 +57,12 @@ int main()
     for (int i = 1; i <= N; i++)
     {
         ans += x.sum(i) - x.sum(pre[a[i]]);
+
         if (pre[a[i]] != 0)
-        {
             x.update(pre[a[i]], -1);
-        }
+        
         pre[a[i]] = i;
-        x.update(pre[a[i]], 1);
+        x.update(i, 1);
     }
 
     cout << ans << endl;

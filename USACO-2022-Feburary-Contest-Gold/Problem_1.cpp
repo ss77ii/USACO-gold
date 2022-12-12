@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 #define ll long long
@@ -20,8 +21,7 @@ int main()
 		int L = n;
 		while(a[L - 1] != i) L--;
 		
-		for (int j = 0; j < L; j++) {E[i] |= 1 << a[j]; cout << E[i];}
-		cout << endl;
+		for (int j = 0; j < L; j++) {E[i] |= 1 << a[j];}
 	}
 	
     g[0] = 1;
@@ -45,10 +45,16 @@ int main()
 		cin >> a;
 		
 		int mask = 0;
-		for (int i = 0; i < n; i++)
-			if (a[i] == 'H') mask |= 1 << i;
+        int mask_2 = 0;
+        for (int i = 0; i < n; i++)
+        {
+            if (a[i] == 'H')
+                mask |= 1 << i;
+            else
+                mask_2 |= 1 << i;
+        }
 
-		cout << g[mask] * g[(1 << n) - 1 - mask] << endl;
+        cout << g[mask] * g[mask_2] << endl;
 	}
 
     return 0;
