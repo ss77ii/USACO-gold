@@ -1,24 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-int dp[301][301];
-int x[301];
-int n;
-
-int main()
+ 
+int N, dp[305][305];
+ 
+int main() 
 {
-    cin >> n;
+	cin >> N;
 
-    for (int i = 0; i < n; i++)
-        cin >> x[i];
-    
-    for (int l = 0; l < n; l++)
-    {
-        for (int r = 0; r < n; r++)
+	vector<int> a(N); 
+
+	for (int& t: a) cin >> t;
+
+	for (int i = N-1; i >= 0; --i) 
+		for (int j = i+1; j < N; ++j)
         {
-            
-        }
-    }
-
-    return 0;
+			if (a[i] == a[j]) // draw segment from i to j
+				dp[i][j] = max(dp[i][j],1+dp[i+1][j-1]);
+			for (int k = i + 1; k < j; ++k) // split at k
+				dp[i][j] = max(dp[i][j],dp[i][k]+dp[k][j]);
+		}
+	cout << N-dp[0][N-1] << "\n";
 }
