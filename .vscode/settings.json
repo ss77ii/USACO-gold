@@ -1,6 +1,7 @@
 {
     "pros.showInstallOnStartup": false,
     "cSpell.words": [
+        "lowbit",
         "MAXN"
     ]
 }

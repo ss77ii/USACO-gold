@@ -1,84 +1,60 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-int N, M;
-
-class Union_Find
+ 
+void setIO(string s)
 {
-    int *id, cnt, *sz;
-    public:
-        // Create an empty union find data structure with N isolated sets.
-        Union_Find(int N)
-        {
-            cnt = N;
-            id = new int[N];
-            sz = new int[N];
-            for (int i = 0; i<N; i++)
-                id[i] = i, sz[i] = 1;
-        }
-        ~Union_Find() { delete[] id; delete[] sz; }
+	ios_base::sync_with_stdio(0); cin.tie(0);  cout.tie(0);
+	freopen((s+".in").c_str(),"r",stdin);
+	freopen((s+".out").c_str(),"w",stdout);
+}
+ 
+const int MX = 2e5+5;
+ 
+int N,M;
+ 
+int par[MX],cnt[MX];
+vector<int> adj[MX], rpar[MX];
+queue<int> q; 
+ 
+void merge(int a, int b)
+{
+	a = par[a], b = par[b];
+	if (rpar[a].size() < rpar[b].size()) swap(a,b);
 
-        // Return the id of component corresponding to object v.
-        int find(int v)
-        {
-            int parent = v;
+	for (int t: rpar[b]) { par[t] = a; rpar[a].push_back(t); }
 
-            while (parent != id[parent])
-                parent = id[parent];
+	adj[a].insert(end(adj[a]),begin(adj[b]),end(adj[b])); 
+	adj[b].clear();
 
-            while (v != parent)
-            {
-                int nep = id[v];
-                id[v] = parent;
-                v = nep;
-            }
-            return parent;
-        }
-
-        // Replace sets containing v1 and v2 with their union. It would combine two sets or add value into one set.
-        void merge(int v1, int v2)
-        {
-            int fx = find(v1);
-            int fy = find(v2);
-
-            if (fx == fy)
-                return;
-            if (sz[fx] < sz[fy])
-                id[fx] = fy, sz[fy] += sz[fx];
-            else
-                id[fy] = fx, sz[fx] += sz[fy];
-
-            cnt--;
-        }
-        // check if objects x and y are in the same set.
-        bool connect(int v1, int v2)
-        {
-            return find(v1) == find(v2);
-        }
-        // Return the number of disjoint sets.
-        int countn() // the number declared set will influence value, if entered 6 but only used 4 and they are all in one set, value would be 1 + 2 = 3 rather than 1.
-        {
-            return cnt;
-        }
-};
-
+	if (adj[a].size() > 1) q.push(a);
+}
+ 
 int main()
-{
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr), cout.tie(nullptr);
-
-    cin >> N >> M;
-
-    Union_Find uf(N);
-
-    int tempx, tempy;
-    for (int i = 1; i <= M; i++)
+{ 
+	setIO("fcolor");
+	cin >> N >> M;
+	for (int i = 0; i < M; ++i)
     {
-        cin >> tempx >> tempy;
-        uf.merge(tempx, tempy);
-    }
+		int a,b; cin >> a >> b;
+		adj[a].push_back(b);
+	}
+	for (int i = 1; i <= N; ++i)
+    {
+		par[i] = i; rpar[i].push_back(i);
+		if (adj[i].size() > 1) q.push(i);
+	}
 
-    cout << uf.countn();
-
-    return 0;
+	while (q.size())
+    {
+		int x = q.front(); if (adj[x].size() <= 1) { q.pop(); continue; }
+		int a = adj[x].back(); adj[x].pop_back();
+		if (par[a] == par[adj[x].back()]) continue;
+		merge(a,adj[x].back());
+	}
+	int co = 0;
+	for (int i = 1; i <= N; ++i)
+    {
+		if (!cnt[par[i]]) cnt[par[i]] = ++co;
+		cout << cnt[par[i]] << endl;
+	}
 }
