@@ -1,0 +1,3 @@
+C:/Users/spenc/OneDrive/Coding/EC_coding/USACO/Gold/USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/cmake-build-debug/CMakeFiles/Problem_1_Snakes.dir
+C:/Users/spenc/OneDrive/Coding/EC_coding/USACO/Gold/USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/spenc/OneDrive/Coding/EC_coding/USACO/Gold/USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/cmake-build-debug/CMakeFiles/rebuild_cache.dir

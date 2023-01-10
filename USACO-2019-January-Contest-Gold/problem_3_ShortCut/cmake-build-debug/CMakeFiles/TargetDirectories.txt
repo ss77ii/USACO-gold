@@ -1,0 +1,3 @@
+C:/Users/spenc/OneDrive/Coding/EC_coding/USACO/Gold/USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/CMakeFiles/problem_3_ShortCut.dir
+C:/Users/spenc/OneDrive/Coding/EC_coding/USACO/Gold/USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/spenc/OneDrive/Coding/EC_coding/USACO/Gold/USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Problem_1_Cow_Poetry" targetName="Problem_1_Cow_Poetry" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b60c800e-f50a-4199-ace9-6207fab63431" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Problem_1_Cow-Poetry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/.idea/problem_3_ShortCut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../problem_3_ShortCut/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/.idea/Problem-1-Snakes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/cmake-build-debug/snakes.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-US-OPEN-Contest-Gold/Problem-1-Snakes/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Problem-3-ShortCut.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="2K45QWnrZ7mWmEVPVJbTQX1SF6R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem_1_Cow_Poetry" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_1_Cow_Poetry" TARGET_NAME="Problem_1_Cow_Poetry" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_1_Cow_Poetry" RUN_TARGET_NAME="Problem_1_Cow_Poetry">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b60c800e-f50a-4199-ace9-6207fab63431" name="Changes" comment="" />
+      <created>1673220999193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673220999193</updated>
+      <workItem from="1673221000789" duration="3754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
