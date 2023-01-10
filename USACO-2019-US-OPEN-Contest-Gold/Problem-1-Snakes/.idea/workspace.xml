@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Problem_1_Snakes" targetName="Problem_1_Snakes" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87153b21-b0e5-4a54-9de8-46170215c75c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/Problem_1_Cow-Poetry/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/Problem_1_Cow-Poetry/.idea/Problem_1_Cow-Poetry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/Problem_1_Cow-Poetry/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/Problem_1_Cow-Poetry/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/Problem_1_Cow-Poetry/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/.idea/problem_3_ShortCut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/problem_3_ShortCut/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Problem-1-Snakes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../USACO-2019-January-Contest-Gold/Problem-3-ShortCut.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="2K4BaJwx77mEYmQuKC1Mjr5A1Sx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem_1_Snakes" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem_1_Snakes" TARGET_NAME="Problem_1_Snakes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem_1_Snakes" RUN_TARGET_NAME="Problem_1_Snakes">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87153b21-b0e5-4a54-9de8-46170215c75c" name="Changes" comment="" />
+      <created>1673224036973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673224036973</updated>
+      <workItem from="1673224038189" duration="4374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
